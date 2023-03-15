@@ -1,13 +1,8 @@
-
-
 codigomorse = '.... . -.--   .--- ..- -.. .'
 
 def morse(codigomorse)
   palavras_morse = codigomorse.split(" ")
   frasetraduzida = []
-
-
- # contador = 0
 
   ((palavras_morse.length)+1).times do |i|
 
@@ -50,7 +45,6 @@ def morse(codigomorse)
     puts "palavras traduzida: #{palavra_traduzida}"
     puts  "frasetraduzida: #{frasetraduzida}"
 
-#    contador = contador + 1
   end
 end
 
