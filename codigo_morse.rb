@@ -38,12 +38,11 @@ def morse(codigomorse)
 
     traduzir_palavras = palavras_morse[i]
     palavra_traduzida = letras_morse.find{ |p| p[traduzir_palavras] }.values.first
-
     frasetraduzida.push(palavra_traduzida)
 
 
     puts "palavras traduzida: #{palavra_traduzida}"
-    puts  "frasetraduzida: #{frasetraduzida}"
+    puts  "frasetraduzida: #{frasetraduzida.join}"
 
   end
 end
